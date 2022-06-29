@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+header {
+    display: inline;
+}
+
+h2,
+h3 {
+    color: #4556c0;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: linear-gradient(#41445c, #4855ad);
+    text-align: center;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #4353bd;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.motivasi {
+    font-size: 35px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Membuat shape pada Partners */
+.card-partners-left {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301);
+    border-radius: 30px 0px 30px 0px;
+    padding: 15px;
+    width: 100%;
+}
+
+.partners-image {
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.btn-detail {
+    background-color: #f7a440;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #4353bd;
+    text-align: center;
+    font-weight: bold;
+}
